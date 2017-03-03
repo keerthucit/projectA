@@ -15,9 +15,12 @@ public class Javasingleton {
         // TODO code application logic here
         singletonexample obj=singletonexample.methodforsingleton();
         singletonexample obj2=singletonexample.methodforsingleton();
+		singletonexample obj4=singletonexample.methodforsingleton();
+		obj4.showMessage();
         obj.showMessage();
          obj2.showMessage();
          System.out.println(obj);
          System.out.println(obj2);
+		  System.out.println(obj4);
     }
 }
